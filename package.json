@@ -4,7 +4,7 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KERM-MD-V1",
+    "start": "DFpRCThS#Xz1ifcCRDIXQID5uhyl019oP7owF2dm8awil6Bni-Hw",
     "stop": "pm2 stop KERM-MD-V1",
     "restart": "pm2 restart KERM-MD-V1"
   },
