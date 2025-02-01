@@ -21,7 +21,7 @@ cmd({
 
     pattern: "menu",
 
-    react: "📑",
+    react: "🪀",
 
     desc: "Get bot command list.",
 
@@ -44,13 +44,13 @@ let madeMenu = `╭━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
 *❖│▸* *ᴍᴏᴅᴇ* : *${config.MODE}*
 *❖│▸* *ᴘʀᴇғɪx* : *${config.PREFIX}*
 *❖│▸* *ʀᴀᴍ ᴜsᴇ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-*❖│▸* *ɴᴀᴍᴇ ʙᴏᴛ* : *❖『𝗞𝗘𝗥𝗠 𝗠𝗗 𝗩1』❖*
-*❖│▸* *ᴄʀᴇᴀᴛᴏʀ* : *Kɢ Tᴇᴄʜ*
+*❖│▸* *ɴᴀᴍᴇ ʙᴏᴛ* : *『ᴀʟɪ-xᴍᴅ*
+*❖│▸* *ᴄʀᴇᴀᴛᴏʀ* : *ᴀʟɪ-ᴛᴇᴄʜ*
 *❖│▸* *ᴀʟᴡᴀʏs ᴏɴʟɪɴᴇ* : *${config.ALWAYS_ONLINE}*
 *❖│▸* *ᴠᴇʀsɪᴏɴs* : *ᴠ.4.1.0*
 *┬│▸*
 *└──────────────···▸*
-  Kᴇʀᴍ & Gɪꜰꜰᴀʀᴇɴᴏ = Kɢ
+  
  *♡︎•━━━━━━☻︎━━━━━━•♡︎*
 *╭────❒⁠⁠⁠⁠* *📥 DOWNLOADER-CMD 📥* *❒⁠⁠⁠⁠* 
 *┋* *.ғʙ*
