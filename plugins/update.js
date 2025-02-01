@@ -30,12 +30,12 @@ cmd({
     if (!fs.existsSync('./.git')) {
       console.log("Initializing git repository...");
       execSync('git init');
-      execSync('git remote add origin https://github.com/Kgtech-cmr/KERM-MD-V1.git');
+      execSync('git remote add origin https://github.com/ali-raza90/ALI-MD-V1.git');
     } else {
       console.log("Checking existing remotes...");
       const remotes = execSync('git remote').toString().split('\n').filter(r => r.trim());
       if (!remotes.includes('origin')) {
-        execSync('git remote add origin https://github.com/Kgtech-cmr/KERM-MD-V1.git');
+        execSync('git remote add origin https://github.com/ali-raza90/ALI-MD-V1.git');
       }
     }
 
@@ -59,14 +59,14 @@ cmd({
     const originCommit = execSync(`git rev-parse origin/${defaultBranch}`).toString().trim();
 
     if (localCommit === originCommit) {
-      await conn.sendMessage(from, { text: '*✅ Kerm Md V1 Bot is already up to date!*' }, { quoted: mek });
+      await conn.sendMessage(from, { text: '*✅ Ali Md V1 Bot is already up to date!*' }, { quoted: mek });
     } else {
       await conn.sendMessage(from, { text: '📥 Updates found! Downloading updates...' }, { quoted: mek });
       console.log("Resetting to origin state...");
       execSync(`git reset --hard origin/${defaultBranch}`);
       console.log("Pulling updates...");
       execSync(`git pull origin ${defaultBranch}`);
-      await conn.sendMessage(from, { text: '*✅ Kerm Bot updated successfully!*' }, { quoted: mek });
+      await conn.sendMessage(from, { text: '*✅ Ali Bot updated successfully!*' }, { quoted: mek });
     }
   } catch (error) {
     console.error(error);
