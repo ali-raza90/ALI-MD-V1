@@ -48,7 +48,7 @@ async (conn, mek, m, { from }) => {
         await conn.sendMessage(from, {
             text: `This is the owner's contact: ${ownerName}`,
             contextInfo: {
-                mentionedJid: [ownerNumber.replace('+923003588997') + '+923096287432@s.whatsapp.net'], // Mention the owner
+                mentionedJid: [ownerNumber.replace('+923003588997@s.whatsapp.net'], // Mention the owner
                 quotedMessageId: sentVCard.key.id // Reference the vCard message
             }
         }, { quoted: mek });
